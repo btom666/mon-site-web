@@ -6,6 +6,21 @@
     <title>Acouphènes et Hyperacousie</title>
     <!-- Lien vers votre fichier CSS externe -->
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Style pour centrer l'image avec Flexbox */
+        .image-container {
+            display: flex;
+            justify-content: center;  /* Centre l'image horizontalement */
+            align-items: center;      /* Centre l'image verticalement */
+            height: 400px;            /* Hauteur du conteneur pour centrer verticalement */
+        }
+
+        .image-container img {
+            max-width: 100%;  /* Pour s'assurer que l'image ne dépasse pas le conteneur */
+            height: auto;     /* Maintient les proportions de l'image */
+        }
+    </style>
 </head>
 <body>
 
@@ -17,8 +32,8 @@
     <!-- Main Content -->
     <main>
 
-          <!-- Intégration de l'image -->
-        <div>
+        <!-- Conteneur Flexbox pour centrer l'image -->
+        <div class="image-container">
             <img src="photo_LOGO.jpg" alt="Image LOGO" width="400">
         </div>
         
@@ -46,9 +61,7 @@
 
     <!-- Footer -->
     <footer>
-       
-        <p>Pour plus d'informations, n'hésitez pas à nous contacter par mail <a href="mailto:3e00xghrc@mozmail.com"> 3e00xghrc@mozmail.com</a>
-            
+        <p>Pour plus d'informations, n'hésitez pas à nous contacter par mail <a href="mailto:3e00xghrc@mozmail.com"> 3e00xghrc@mozmail.com</a></p>
     </footer>
 
 </body>
